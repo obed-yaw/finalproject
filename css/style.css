@@ -620,7 +620,7 @@ button:focus{
 	padding-bottom: 0px;
 }
 .bg-f{
-	background-image: url("../images/table.jpg";
+	background-image: url("../images/table.jpg")s;
 	background-attachment: scroll;
 	background-clip: initial;
 	background-color: rgba(0, 0, 0, 0);
