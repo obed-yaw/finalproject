@@ -25,7 +25,7 @@
 	</div>
 	<!-- End About -->
 	
-	<!-- Start Menu -->
+	
 	<!-- Start Menu -->
 	<div class="menu-box">
 		<div class="container">

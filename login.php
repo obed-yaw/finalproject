@@ -30,7 +30,7 @@
   <table border="0" align="center" cellpadding="5" cellspacing="7">
 	
 	        <tr align="right">	
-		     <td> <img src="Login.png" style="width: 30%"> <br>
+		     <td>  <br>
 		      <a href="registration.php"> New User?</a></td>
 		 </tr>
 		<tr>

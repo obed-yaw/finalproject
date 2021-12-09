@@ -14,7 +14,7 @@
 <div style="height: 150px;"></div>
 <div style="width: 90%; margin: 0 auto;">
 	<center> <img src="cart.jpg" width="10%"> </center>
-<center> <p style="font-size: 2.4em; color: red"> VIEW CART PRODUCT HERE 	</p> </center> 
+<center> <p style="font-size: 2.4em; color: red"> View Cart</p> </center> 
 	<div style="width: 90%; padding: 20px; text-align: right;">
 			<a href="checkout.php"><img src="images/chcekout.png" width="40"></a>
 			<a href="checkout.php">Check Out</a> 
@@ -43,7 +43,7 @@ INNER JOIN menu ON addcart.p_id=menu.id where addcart.u_id='$uid'");
 				<td><?php echo $r['price']; ?></td>
 				<td><?php echo $r['qty']; ?></td>
 				<td><?php echo $r['total']; ?></td>
-				<td><a href="deletecart.php?id=<?php echo $r['id']; ?>">Delete</a></td>
+				<td><a href="deletecart.php?id=<?php echo $r['id']; ?>" onclick="return confirm('Are you sure you want to delete ?'); ">Delete</a></td>
 
 			</tr>
 			
