@@ -319,7 +319,7 @@ button:focus{
 
 .about-section-box{
 	padding: 70px 0px;
-	background: #ffffff url(../images/about-bg.jpg) no-repeat bottom center;
+	background: #ffffff url(../images/about.jpg) no-repeat bottom center;
 	background-size: cover;
 }
 .about-section-box .img-fluid{
@@ -620,7 +620,7 @@ button:focus{
 	padding-bottom: 0px;
 }
 .bg-f{
-	background-image: url("../images/table.jpg")s;
+	background-image: url(../images/table.jpg);
 	background-attachment: scroll;
 	background-clip: initial;
 	background-color: rgba(0, 0, 0, 0);
@@ -1078,6 +1078,7 @@ blockquote {
     float: left;
     width: 100%;
 }
+
 .line-left-social h5 {
     font-size: 18px;
     font-weight: 600;
