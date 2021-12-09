@@ -1,2 +1,2 @@
 <br><br>
-<div class="footer"> Admin Panel</div>
+<div class="footer"> Digistic Pharmaceutical Admin Panel</div>
