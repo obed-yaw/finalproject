@@ -95,7 +95,7 @@
 					
 					<?php
 							include "connect.php";
-							$s = mysqli_query($con,"select * from gallery order by id desc limit 6");
+							$s = mysqli_query($con,"select * from inventory order by id desc limit 6");
 							while($r = mysqli_fetch_array($s))
 							{
 					?>

@@ -27,7 +27,7 @@
 					
 					<?php
 							include "connect.php";
-							$s = mysqli_query($con,"select * from gallery");
+							$s = mysqli_query($con,"select * from inventory");
 							while($r = mysqli_fetch_array($s))
 							{
 					?>
