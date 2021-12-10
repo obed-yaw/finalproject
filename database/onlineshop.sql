@@ -1,9 +1,10 @@
 -- phpMyAdmin SQL Dump
+
 -- version 5.1.1
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Dec 09, 2021 at 09:59 AM
+-- Generation Time: Dec 10, 2021 at 05:51 AM
 -- Server version: 10.4.20-MariaDB
 -- PHP Version: 8.0.9
 
@@ -26,6 +27,8 @@ SET time_zone = "+00:00";
 --
 -- Table structure for table `addcart`
 --
+create schema onlineshop;
+use onlineshop;
 
 CREATE TABLE `addcart` (
   `id` bigint(12) NOT NULL,
@@ -155,7 +158,8 @@ CREATE TABLE `menu` (
 INSERT INTO `menu` (`id`, `category`, `sub_cat`, `title`, `description`, `price`, `image`) VALUES
 (6, 'Tablets', 'tablets', 'Tylenol', 'Tylenol', 30, 'mimg/product12.png'),
 (7, 'Drops', 'droppables', 'Chanca Pedra', 'Chanca Pedra', 40, 'mimg/product_02.png'),
-(36, 'Orals', 'Drinkables', 'Bioderma', 'Bioderma', 211, 'mimg/product_01.png');
+(36, 'Orals', 'Drinkables', 'Bioderma', 'Bioderma', 211, 'mimg/product_01.png'),
+(37, 'Orals', 'Drinkables', 'Tramadol', 'Tramadol', 22222, 'mimg/blog-img-02.jpg');
 
 -- --------------------------------------------------------
 
@@ -300,7 +304,7 @@ ALTER TABLE `inventory`
 -- AUTO_INCREMENT for table `menu`
 --
 ALTER TABLE `menu`
-  MODIFY `id` bigint(12) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=37;
+  MODIFY `id` bigint(12) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=38;
 
 --
 -- AUTO_INCREMENT for table `registration`
