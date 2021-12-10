@@ -48,13 +48,13 @@
 					if(isset($_SESSION['uid']))
 					{
 					?>
-					HI <?php echo $_SESSION['uid']; ?> &nbsp;&nbsp; <a href="cart.php">Cart</a>&nbsp;&nbsp; <a href="logout.php">LogOut</a>
+					HI <?php echo $_SESSION['uid']; ?> &nbsp;&nbsp; <a href="cart.php">Cart</a>&nbsp;&nbsp; <a href="logout.php">Logout</a>
 					<?php	
 					}
 					else
 					{	
 					?>
-					<a href="registration.php">New User</a>&nbsp;&nbsp;&nbsp;<a href="login.php">Login</a>
+					<a href="registration.php">Register</a>&nbsp;&nbsp;&nbsp;<a href="login.php">Login</a>
 					<?php
 					}
 					?>	
@@ -69,22 +69,7 @@
 						<li class="nav-item"><a class="nav-link" href="contact.php">Contact Us</a></li>
 						<li class="nav-item"><a class="nav-link" href="review.php">Review</a></li>
 
-						<!--<li class="nav-item dropdown">
-							<a class="nav-link dropdown-toggle" href="#" id="dropdown-a" data-toggle="dropdown">Pages</a>
-							<div class="dropdown-menu" aria-labelledby="dropdown-a">
-								<a class="dropdown-item" href="reservation.html">Reservation</a>
-								<a class="dropdown-item" href="stuff.html">Stuff</a>
-								<a class="dropdown-item" href="gallery.html">Gallery</a>
-							</div>
-						</li> -->
-						<!--<li class="nav-item dropdown">
-							<a class="nav-link dropdown-toggle" href="#" id="dropdown-a" data-toggle="dropdown">Blog</a>
-							<div class="dropdown-menu" aria-labelledby="dropdown-a">
-								<a class="dropdown-item" href="blog.html">blog</a>
-								<a class="dropdown-item" href="blog-details.html">blog Single</a>
-							</div>
-						</li> -->
-						<!--<li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li> -->
+						
 					</ul>
 				</div>
 			</div>
